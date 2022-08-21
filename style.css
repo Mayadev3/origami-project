@@ -1,0 +1,82 @@
+html {
+  background: white;
+}
+body {
+  background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+  border-radius: 10px;
+  margin: 50 auto;
+  padding: 30px 100px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h1 {
+  color: #ffffff;
+  font-family: fantasy;
+  font-size: 80px;
+}
+h2 {
+  color: #a7bcb9;
+  border: 1px solid #e4d091;
+}
+h3 {
+  color: #a7bcb9;
+}
+h3:hover {
+  color: #8bffff;
+  cursor: default;
+}
+.pics {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pic-2,
+.pic-4 {
+  height: 130px;
+  align-self: flex-end;
+}
+.history {
+  color: white;
+  text-align: center;
+}
+.improve {
+  text-align: center;
+  color: #fecd51;
+  font-weight: 900;
+}
+.now {
+  text-decoration: underline;
+  color: white;
+  font-weight: 900;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 40px;
+  color: #000000;
+  background-color: #c50d66;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 600;
+  border-color: #000000;
+  transition: all 200ms ease-in-out;
+
+  box-shadow: 9px 9px 5px rgba(0, 0, 0, 0.4);
+}
+button:hover {
+  background: #ffffff;
+  cursor: pointer;
+}
+.me {
+  text-align: center;
+  color: #ffffff;
+}
+.mb {
+  text-shadow: #fc0 1px 0 10px;
+}
+.sponsor {
+  color: yellow;
+}
